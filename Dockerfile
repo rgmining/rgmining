@@ -33,7 +33,8 @@ RUN pip install --upgrade pip pip-tools setuptools
 
 # Install rgmining packages.
 ADD ./requirements.in /root/
-RUN pip-compile /root/requirements.in
+RUN pip-compile /root/requirements.in && \
+    rm -r /root/.cache/pip-tools/
 RUN pip install -r /root/requirements.txt
 
 # Import and set the startup script.
