@@ -1,5 +1,7 @@
 # Docker image for Review Graph Mining
 [![GPLv3](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/copyleft/gpl.html)
+[![Dockerhub](https://img.shields.io/badge/dockerhub-rgmining%2Frgmining-blue.svg)](https://hub.docker.com/r/rgminin/rgmining/)
+[![MicroBadger](https://images.microbadger.com/badges/image/rgmining/rgmining.svg)](https://microbadger.com/images/rgmining/rgmining)
 
 [![Logo](https://rgmining.github.io/script/_static/image.png)](https://rgmining.github.io/)
 
